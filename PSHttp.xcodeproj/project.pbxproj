@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2C02DF971C6722B400FCA557 /* Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2C02DF981C6722B400FCA557 /* Build configuration list for PBXAggregateTarget "Aggregate" */;
+			buildPhases = (
+				2C02DF9B1C6722C100FCA557 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Aggregate;
+			productName = Aggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5DE523071C5CDAF1000FA850 /* PSHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE522FC1C5CDAF1000FA850 /* PSHttp.framework */; };
+		5DE5230C1C5CDAF1000FA850 /* PSHttpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5230B1C5CDAF1000FA850 /* PSHttpTests.m */; };
+		5DE523331C5CDB90000FA850 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523181C5CDB90000FA850 /* AFHTTPSessionManager.m */; };
+		5DE523361C5CDB90000FA850 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5231B1C5CDB90000FA850 /* AFNetworkReachabilityManager.m */; };
+		5DE523381C5CDB90000FA850 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5231D1C5CDB90000FA850 /* AFSecurityPolicy.m */; };
+		5DE5233A1C5CDB90000FA850 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5231F1C5CDB90000FA850 /* AFURLRequestSerialization.m */; };
+		5DE5233C1C5CDB90000FA850 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523211C5CDB90000FA850 /* AFURLResponseSerialization.m */; };
+		5DE5233E1C5CDB90000FA850 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523231C5CDB90000FA850 /* AFURLSessionManager.m */; };
+		5DE5233F1C5CDB90000FA850 /* convenientmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE523251C5CDB90000FA850 /* convenientmacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE523401C5CDB90000FA850 /* PSFileResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE523261C5CDB90000FA850 /* PSFileResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE523411C5CDB90000FA850 /* PSFileResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523271C5CDB90000FA850 /* PSFileResponseHandler.m */; };
+		5DE523421C5CDB90000FA850 /* PSHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE523281C5CDB90000FA850 /* PSHttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE523431C5CDB90000FA850 /* PSHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523291C5CDB90000FA850 /* PSHttp.m */; };
+		5DE523451C5CDB90000FA850 /* PSHttpResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE5232B1C5CDB90000FA850 /* PSHttpResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE523461C5CDB90000FA850 /* PSHttpResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5232C1C5CDB90000FA850 /* PSHttpResponseHandler.m */; };
+		5DE523471C5CDB90000FA850 /* PSHttpResponseHandlers.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE5232D1C5CDB90000FA850 /* PSHttpResponseHandlers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE523481C5CDB90000FA850 /* PSJsonResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE5232E1C5CDB90000FA850 /* PSJsonResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE523491C5CDB90000FA850 /* PSJsonResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5232F1C5CDB90000FA850 /* PSJsonResponseHandler.m */; };
+		5DE5234A1C5CDB90000FA850 /* PSTextResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE523301C5CDB90000FA850 /* PSTextResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE5234B1C5CDB90000FA850 /* PSTextResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523311C5CDB90000FA850 /* PSTextResponseHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DE523081C5CDAF1000FA850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE522F31C5CDAF1000FA850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE522FB1C5CDAF1000FA850;
+			remoteInfo = PSHttp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DE522FC1C5CDAF1000FA850 /* PSHttp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSHttp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE523011C5CDAF1000FA850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE523061C5CDAF1000FA850 /* PSHttpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSHttpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE5230B1C5CDAF1000FA850 /* PSHttpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSHttpTests.m; sourceTree = "<group>"; };
+		5DE5230D1C5CDAF1000FA850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE523171C5CDB90000FA850 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		5DE523181C5CDB90000FA850 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		5DE523191C5CDB90000FA850 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		5DE5231A1C5CDB90000FA850 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		5DE5231B1C5CDB90000FA850 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		5DE5231C1C5CDB90000FA850 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		5DE5231D1C5CDB90000FA850 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		5DE5231E1C5CDB90000FA850 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		5DE5231F1C5CDB90000FA850 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		5DE523201C5CDB90000FA850 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		5DE523211C5CDB90000FA850 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		5DE523221C5CDB90000FA850 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		5DE523231C5CDB90000FA850 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		5DE523251C5CDB90000FA850 /* convenientmacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convenientmacros.h; sourceTree = "<group>"; };
+		5DE523261C5CDB90000FA850 /* PSFileResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFileResponseHandler.h; sourceTree = "<group>"; };
+		5DE523271C5CDB90000FA850 /* PSFileResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFileResponseHandler.m; sourceTree = "<group>"; };
+		5DE523281C5CDB90000FA850 /* PSHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHttp.h; sourceTree = "<group>"; };
+		5DE523291C5CDB90000FA850 /* PSHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHttp.m; sourceTree = "<group>"; };
+		5DE5232A1C5CDB90000FA850 /* PSHttpResponseHandler_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHttpResponseHandler_Private.h; sourceTree = "<group>"; };
+		5DE5232B1C5CDB90000FA850 /* PSHttpResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHttpResponseHandler.h; sourceTree = "<group>"; };
+		5DE5232C1C5CDB90000FA850 /* PSHttpResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHttpResponseHandler.m; sourceTree = "<group>"; };
+		5DE5232D1C5CDB90000FA850 /* PSHttpResponseHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHttpResponseHandlers.h; sourceTree = "<group>"; };
+		5DE5232E1C5CDB90000FA850 /* PSJsonResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSJsonResponseHandler.h; sourceTree = "<group>"; };
+		5DE5232F1C5CDB90000FA850 /* PSJsonResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSJsonResponseHandler.m; sourceTree = "<group>"; };
+		5DE523301C5CDB90000FA850 /* PSTextResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTextResponseHandler.h; sourceTree = "<group>"; };
+		5DE523311C5CDB90000FA850 /* PSTextResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTextResponseHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DE522F81C5CDAF1000FA850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE523031C5CDAF1000FA850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE523071C5CDAF1000FA850 /* PSHttp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DE522F21C5CDAF1000FA850 = {
+			isa = PBXGroup;
+			children = (
+				5DE522FE1C5CDAF1000FA850 /* PSHttp */,
+				5DE5230A1C5CDAF1000FA850 /* PSHttpTests */,
+				5DE522FD1C5CDAF1000FA850 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DE522FD1C5CDAF1000FA850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DE522FC1C5CDAF1000FA850 /* PSHttp.framework */,
+				5DE523061C5CDAF1000FA850 /* PSHttpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DE522FE1C5CDAF1000FA850 /* PSHttp */ = {
+			isa = PBXGroup;
+			children = (
+				5DE523161C5CDB90000FA850 /* AFNetworking */,
+				5DE523241C5CDB90000FA850 /* macros */,
+				5DE523261C5CDB90000FA850 /* PSFileResponseHandler.h */,
+				5DE523271C5CDB90000FA850 /* PSFileResponseHandler.m */,
+				5DE523281C5CDB90000FA850 /* PSHttp.h */,
+				5DE523291C5CDB90000FA850 /* PSHttp.m */,
+				5DE5232A1C5CDB90000FA850 /* PSHttpResponseHandler_Private.h */,
+				5DE5232B1C5CDB90000FA850 /* PSHttpResponseHandler.h */,
+				5DE5232C1C5CDB90000FA850 /* PSHttpResponseHandler.m */,
+				5DE5232D1C5CDB90000FA850 /* PSHttpResponseHandlers.h */,
+				5DE5232E1C5CDB90000FA850 /* PSJsonResponseHandler.h */,
+				5DE5232F1C5CDB90000FA850 /* PSJsonResponseHandler.m */,
+				5DE523301C5CDB90000FA850 /* PSTextResponseHandler.h */,
+				5DE523311C5CDB90000FA850 /* PSTextResponseHandler.m */,
+				5DE523011C5CDAF1000FA850 /* Info.plist */,
+			);
+			path = PSHttp;
+			sourceTree = "<group>";
+		};
+		5DE5230A1C5CDAF1000FA850 /* PSHttpTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE5230B1C5CDAF1000FA850 /* PSHttpTests.m */,
+				5DE5230D1C5CDAF1000FA850 /* Info.plist */,
+			);
+			path = PSHttpTests;
+			sourceTree = "<group>";
+		};
+		5DE523161C5CDB90000FA850 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5DE523171C5CDB90000FA850 /* AFHTTPSessionManager.h */,
+				5DE523181C5CDB90000FA850 /* AFHTTPSessionManager.m */,
+				5DE523191C5CDB90000FA850 /* AFNetworking.h */,
+				5DE5231A1C5CDB90000FA850 /* AFNetworkReachabilityManager.h */,
+				5DE5231B1C5CDB90000FA850 /* AFNetworkReachabilityManager.m */,
+				5DE5231C1C5CDB90000FA850 /* AFSecurityPolicy.h */,
+				5DE5231D1C5CDB90000FA850 /* AFSecurityPolicy.m */,
+				5DE5231E1C5CDB90000FA850 /* AFURLRequestSerialization.h */,
+				5DE5231F1C5CDB90000FA850 /* AFURLRequestSerialization.m */,
+				5DE523201C5CDB90000FA850 /* AFURLResponseSerialization.h */,
+				5DE523211C5CDB90000FA850 /* AFURLResponseSerialization.m */,
+				5DE523221C5CDB90000FA850 /* AFURLSessionManager.h */,
+				5DE523231C5CDB90000FA850 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		5DE523241C5CDB90000FA850 /* macros */ = {
+			isa = PBXGroup;
+			children = (
+				5DE523251C5CDB90000FA850 /* convenientmacros.h */,
+			);
+			path = macros;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DE522F91C5CDAF1000FA850 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE523421C5CDB90000FA850 /* PSHttp.h in Headers */,
+				5DE523451C5CDB90000FA850 /* PSHttpResponseHandler.h in Headers */,
+				5DE523471C5CDB90000FA850 /* PSHttpResponseHandlers.h in Headers */,
+				5DE5234A1C5CDB90000FA850 /* PSTextResponseHandler.h in Headers */,
+				5DE523481C5CDB90000FA850 /* PSJsonResponseHandler.h in Headers */,
+				5DE523401C5CDB90000FA850 /* PSFileResponseHandler.h in Headers */,
+				5DE5233F1C5CDB90000FA850 /* convenientmacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DE522FB1C5CDAF1000FA850 /* PSHttp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE523101C5CDAF1000FA850 /* Build configuration list for PBXNativeTarget "PSHttp" */;
+			buildPhases = (
+				5DE522F71C5CDAF1000FA850 /* Sources */,
+				5DE522F81C5CDAF1000FA850 /* Frameworks */,
+				5DE522F91C5CDAF1000FA850 /* Headers */,
+				5DE522FA1C5CDAF1000FA850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSHttp;
+			productName = PSHttp;
+			productReference = 5DE522FC1C5CDAF1000FA850 /* PSHttp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DE523051C5CDAF1000FA850 /* PSHttpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE523131C5CDAF1000FA850 /* Build configuration list for PBXNativeTarget "PSHttpTests" */;
+			buildPhases = (
+				5DE523021C5CDAF1000FA850 /* Sources */,
+				5DE523031C5CDAF1000FA850 /* Frameworks */,
+				5DE523041C5CDAF1000FA850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE523091C5CDAF1000FA850 /* PBXTargetDependency */,
+			);
+			name = PSHttpTests;
+			productName = PSHttpTests;
+			productReference = 5DE523061C5CDAF1000FA850 /* PSHttpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DE522F31C5CDAF1000FA850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PoiSon;
+				TargetAttributes = {
+					2C02DF971C6722B400FCA557 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5DE522FB1C5CDAF1000FA850 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5DE523051C5CDAF1000FA850 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 5DE522F61C5CDAF1000FA850 /* Build configuration list for PBXProject "PSHttp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DE522F21C5CDAF1000FA850;
+			productRefGroup = 5DE522FD1C5CDAF1000FA850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE522FB1C5CDAF1000FA850 /* PSHttp */,
+				2C02DF971C6722B400FCA557 /* Aggregate */,
+				5DE523051C5CDAF1000FA850 /* PSHttpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DE522FA1C5CDAF1000FA850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE523041C5CDAF1000FA850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C02DF9B1C6722C100FCA557 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n#存放framework的目录\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/framework-universal\nSIMULATOR_OUTPUTFOLDER=${BUILD_DIR}/framework-iphonesimulator\nIPHONEOS_OUTPUTFOLDER=${BUILD_DIR}/framework-iphoneos\n\n#IPHONE_DEVICE_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos\nWORKSPACE_NAME=${PROJECT_NAME}.xcodeproj\nBUILD_SCHEME=${PROJECT_NAME}\n\nBUNDLE_DIR=\"Build/Products/Release-iphoneos\"\n\n#先删除已成生的framework, 再生成\nrm -rf \"${SIMULATOR_OUTPUTFOLDER}\"\nrm -rf \"${IPHONEOS_OUTPUTFOLDER}\"\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\n\ncd ${SRCROOT}\n#模拟器\nxcodebuild -project ${WORKSPACE_NAME} -scheme ${BUILD_SCHEME} -arch i386 -arch x86_64 -sdk iphonesimulator -configuration \"RELEASE\" -derivedDataPath \"${SIMULATOR_OUTPUTFOLDER}\"\n\n#真机\nxcodebuild -project ${WORKSPACE_NAME} -scheme ${BUILD_SCHEME} -sdk iphoneos -configuration \"RELEASE\" -derivedDataPath \"${IPHONEOS_OUTPUTFOLDER}\"\n\n#合并模拟器和真机的架构\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\ncp -R \"${IPHONEOS_OUTPUTFOLDER}/${BUNDLE_DIR}/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\"\n\nlipo -create  \"${SIMULATOR_OUTPUTFOLDER}/${BUNDLE_DIR}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${IPHONEOS_OUTPUTFOLDER}/${BUNDLE_DIR}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\nrm -rf \"${SIMULATOR_OUTPUTFOLDER}\"\nrm -rf \"${IPHONEOS_OUTPUTFOLDER}\"\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DE522F71C5CDAF1000FA850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE523361C5CDB90000FA850 /* AFNetworkReachabilityManager.m in Sources */,
+				5DE523381C5CDB90000FA850 /* AFSecurityPolicy.m in Sources */,
+				5DE523331C5CDB90000FA850 /* AFHTTPSessionManager.m in Sources */,
+				5DE523411C5CDB90000FA850 /* PSFileResponseHandler.m in Sources */,
+				5DE5233E1C5CDB90000FA850 /* AFURLSessionManager.m in Sources */,
+				5DE5234B1C5CDB90000FA850 /* PSTextResponseHandler.m in Sources */,
+				5DE5233A1C5CDB90000FA850 /* AFURLRequestSerialization.m in Sources */,
+				5DE523491C5CDB90000FA850 /* PSJsonResponseHandler.m in Sources */,
+				5DE523431C5CDB90000FA850 /* PSHttp.m in Sources */,
+				5DE5233C1C5CDB90000FA850 /* AFURLResponseSerialization.m in Sources */,
+				5DE523461C5CDB90000FA850 /* PSHttpResponseHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE523021C5CDAF1000FA850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE5230C1C5CDAF1000FA850 /* PSHttpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DE523091C5CDAF1000FA850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE522FB1C5CDAF1000FA850 /* PSHttp */;
+			targetProxy = 5DE523081C5CDAF1000FA850 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C02DF991C6722B400FCA557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C02DF9A1C6722B400FCA557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DE5230E1C5CDAF1000FA850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DE5230F1C5CDAF1000FA850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DE523111C5CDAF1000FA850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PSHttp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yerl.PSHttp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		5DE523121C5CDAF1000FA850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PSHttp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yerl.PSHttp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		5DE523141C5CDAF1000FA850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PSHttpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yerl.PSHttpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DE523151C5CDAF1000FA850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PSHttpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yerl.PSHttpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C02DF981C6722B400FCA557 /* Build configuration list for PBXAggregateTarget "Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C02DF991C6722B400FCA557 /* Debug */,
+				2C02DF9A1C6722B400FCA557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DE522F61C5CDAF1000FA850 /* Build configuration list for PBXProject "PSHttp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE5230E1C5CDAF1000FA850 /* Debug */,
+				5DE5230F1C5CDAF1000FA850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE523101C5CDAF1000FA850 /* Build configuration list for PBXNativeTarget "PSHttp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE523111C5CDAF1000FA850 /* Debug */,
+				5DE523121C5CDAF1000FA850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE523131C5CDAF1000FA850 /* Build configuration list for PBXNativeTarget "PSHttpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE523141C5CDAF1000FA850 /* Debug */,
+				5DE523151C5CDAF1000FA850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DE522F31C5CDAF1000FA850 /* Project object */;
+}
