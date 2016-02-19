@@ -21,26 +21,26 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5D0C09691C7766450025F356 /* PSFileResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0C095F1C7766450025F356 /* PSFileResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0C096A1C7766450025F356 /* PSFileResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C09601C7766450025F356 /* PSFileResponseHandler.m */; };
+		5D0C096C1C7766450025F356 /* PSHttpResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0C09621C7766450025F356 /* PSHttpResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0C096D1C7766450025F356 /* PSHttpResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C09631C7766450025F356 /* PSHttpResponseHandler.m */; };
+		5D0C096F1C7766450025F356 /* PSJsonResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0C09651C7766450025F356 /* PSJsonResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0C09701C7766450025F356 /* PSJsonResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C09661C7766450025F356 /* PSJsonResponseHandler.m */; };
+		5D0C09711C7766450025F356 /* PSTextResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0C09671C7766450025F356 /* PSTextResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0C09721C7766450025F356 /* PSTextResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C09681C7766450025F356 /* PSTextResponseHandler.m */; };
+		5D0C09741C77666D0025F356 /* PSHttpDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0C09731C77666D0025F356 /* PSHttpDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0C0AAD1C7775DD0025F356 /* PSHttpResponseHandlers.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0C09641C7766450025F356 /* PSHttpResponseHandlers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DE523071C5CDAF1000FA850 /* PSHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE522FC1C5CDAF1000FA850 /* PSHttp.framework */; };
-		5DE5230C1C5CDAF1000FA850 /* PSHttpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5230B1C5CDAF1000FA850 /* PSHttpTests.m */; };
+		5DE5230C1C5CDAF1000FA850 /* PSHttp.test.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5230B1C5CDAF1000FA850 /* PSHttp.test.m */; };
 		5DE523331C5CDB90000FA850 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523181C5CDB90000FA850 /* AFHTTPSessionManager.m */; };
 		5DE523361C5CDB90000FA850 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5231B1C5CDB90000FA850 /* AFNetworkReachabilityManager.m */; };
 		5DE523381C5CDB90000FA850 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5231D1C5CDB90000FA850 /* AFSecurityPolicy.m */; };
 		5DE5233A1C5CDB90000FA850 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5231F1C5CDB90000FA850 /* AFURLRequestSerialization.m */; };
 		5DE5233C1C5CDB90000FA850 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523211C5CDB90000FA850 /* AFURLResponseSerialization.m */; };
 		5DE5233E1C5CDB90000FA850 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523231C5CDB90000FA850 /* AFURLSessionManager.m */; };
-		5DE5233F1C5CDB90000FA850 /* convenientmacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE523251C5CDB90000FA850 /* convenientmacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DE523401C5CDB90000FA850 /* PSFileResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE523261C5CDB90000FA850 /* PSFileResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DE523411C5CDB90000FA850 /* PSFileResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523271C5CDB90000FA850 /* PSFileResponseHandler.m */; };
 		5DE523421C5CDB90000FA850 /* PSHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE523281C5CDB90000FA850 /* PSHttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DE523431C5CDB90000FA850 /* PSHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523291C5CDB90000FA850 /* PSHttp.m */; };
-		5DE523451C5CDB90000FA850 /* PSHttpResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE5232B1C5CDB90000FA850 /* PSHttpResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DE523461C5CDB90000FA850 /* PSHttpResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5232C1C5CDB90000FA850 /* PSHttpResponseHandler.m */; };
-		5DE523471C5CDB90000FA850 /* PSHttpResponseHandlers.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE5232D1C5CDB90000FA850 /* PSHttpResponseHandlers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DE523481C5CDB90000FA850 /* PSJsonResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE5232E1C5CDB90000FA850 /* PSJsonResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DE523491C5CDB90000FA850 /* PSJsonResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5232F1C5CDB90000FA850 /* PSJsonResponseHandler.m */; };
-		5DE5234A1C5CDB90000FA850 /* PSTextResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE523301C5CDB90000FA850 /* PSTextResponseHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DE5234B1C5CDB90000FA850 /* PSTextResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE523311C5CDB90000FA850 /* PSTextResponseHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +54,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D0C095F1C7766450025F356 /* PSFileResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSFileResponseHandler.h; path = ResponseHandler/PSFileResponseHandler.h; sourceTree = "<group>"; };
+		5D0C09601C7766450025F356 /* PSFileResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSFileResponseHandler.m; path = ResponseHandler/PSFileResponseHandler.m; sourceTree = "<group>"; };
+		5D0C09611C7766450025F356 /* PSHttpResponseHandler_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSHttpResponseHandler_Private.h; path = ResponseHandler/PSHttpResponseHandler_Private.h; sourceTree = "<group>"; };
+		5D0C09621C7766450025F356 /* PSHttpResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSHttpResponseHandler.h; path = ResponseHandler/PSHttpResponseHandler.h; sourceTree = "<group>"; };
+		5D0C09631C7766450025F356 /* PSHttpResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSHttpResponseHandler.m; path = ResponseHandler/PSHttpResponseHandler.m; sourceTree = "<group>"; };
+		5D0C09641C7766450025F356 /* PSHttpResponseHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSHttpResponseHandlers.h; path = ResponseHandler/PSHttpResponseHandlers.h; sourceTree = "<group>"; };
+		5D0C09651C7766450025F356 /* PSJsonResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSJsonResponseHandler.h; path = ResponseHandler/PSJsonResponseHandler.h; sourceTree = "<group>"; };
+		5D0C09661C7766450025F356 /* PSJsonResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSJsonResponseHandler.m; path = ResponseHandler/PSJsonResponseHandler.m; sourceTree = "<group>"; };
+		5D0C09671C7766450025F356 /* PSTextResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSTextResponseHandler.h; path = ResponseHandler/PSTextResponseHandler.h; sourceTree = "<group>"; };
+		5D0C09681C7766450025F356 /* PSTextResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSTextResponseHandler.m; path = ResponseHandler/PSTextResponseHandler.m; sourceTree = "<group>"; };
+		5D0C09731C77666D0025F356 /* PSHttpDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHttpDefines.h; sourceTree = "<group>"; };
 		5DE522FC1C5CDAF1000FA850 /* PSHttp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSHttp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE523011C5CDAF1000FA850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DE523061C5CDAF1000FA850 /* PSHttpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSHttpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DE5230B1C5CDAF1000FA850 /* PSHttpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSHttpTests.m; sourceTree = "<group>"; };
+		5DE5230B1C5CDAF1000FA850 /* PSHttp.test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSHttp.test.m; sourceTree = "<group>"; };
 		5DE5230D1C5CDAF1000FA850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DE523171C5CDB90000FA850 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		5DE523181C5CDB90000FA850 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
@@ -73,18 +84,8 @@
 		5DE523221C5CDB90000FA850 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		5DE523231C5CDB90000FA850 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		5DE523251C5CDB90000FA850 /* convenientmacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convenientmacros.h; sourceTree = "<group>"; };
-		5DE523261C5CDB90000FA850 /* PSFileResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFileResponseHandler.h; sourceTree = "<group>"; };
-		5DE523271C5CDB90000FA850 /* PSFileResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFileResponseHandler.m; sourceTree = "<group>"; };
 		5DE523281C5CDB90000FA850 /* PSHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHttp.h; sourceTree = "<group>"; };
 		5DE523291C5CDB90000FA850 /* PSHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHttp.m; sourceTree = "<group>"; };
-		5DE5232A1C5CDB90000FA850 /* PSHttpResponseHandler_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHttpResponseHandler_Private.h; sourceTree = "<group>"; };
-		5DE5232B1C5CDB90000FA850 /* PSHttpResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHttpResponseHandler.h; sourceTree = "<group>"; };
-		5DE5232C1C5CDB90000FA850 /* PSHttpResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHttpResponseHandler.m; sourceTree = "<group>"; };
-		5DE5232D1C5CDB90000FA850 /* PSHttpResponseHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHttpResponseHandlers.h; sourceTree = "<group>"; };
-		5DE5232E1C5CDB90000FA850 /* PSJsonResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSJsonResponseHandler.h; sourceTree = "<group>"; };
-		5DE5232F1C5CDB90000FA850 /* PSJsonResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSJsonResponseHandler.m; sourceTree = "<group>"; };
-		5DE523301C5CDB90000FA850 /* PSTextResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTextResponseHandler.h; sourceTree = "<group>"; };
-		5DE523311C5CDB90000FA850 /* PSTextResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTextResponseHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D0C095E1C7766000025F356 /* ResponseHandler */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C095F1C7766450025F356 /* PSFileResponseHandler.h */,
+				5D0C09601C7766450025F356 /* PSFileResponseHandler.m */,
+				5D0C09611C7766450025F356 /* PSHttpResponseHandler_Private.h */,
+				5D0C09621C7766450025F356 /* PSHttpResponseHandler.h */,
+				5D0C09631C7766450025F356 /* PSHttpResponseHandler.m */,
+				5D0C09641C7766450025F356 /* PSHttpResponseHandlers.h */,
+				5D0C09651C7766450025F356 /* PSJsonResponseHandler.h */,
+				5D0C09661C7766450025F356 /* PSJsonResponseHandler.m */,
+				5D0C09671C7766450025F356 /* PSTextResponseHandler.h */,
+				5D0C09681C7766450025F356 /* PSTextResponseHandler.m */,
+			);
+			name = ResponseHandler;
+			sourceTree = "<group>";
+		};
 		5DE522F21C5CDAF1000FA850 = {
 			isa = PBXGroup;
 			children = (
@@ -127,21 +145,13 @@
 		5DE522FE1C5CDAF1000FA850 /* PSHttp */ = {
 			isa = PBXGroup;
 			children = (
+				5D0C095E1C7766000025F356 /* ResponseHandler */,
 				5DE523161C5CDB90000FA850 /* AFNetworking */,
 				5DE523241C5CDB90000FA850 /* macros */,
-				5DE523261C5CDB90000FA850 /* PSFileResponseHandler.h */,
-				5DE523271C5CDB90000FA850 /* PSFileResponseHandler.m */,
 				5DE523281C5CDB90000FA850 /* PSHttp.h */,
 				5DE523291C5CDB90000FA850 /* PSHttp.m */,
-				5DE5232A1C5CDB90000FA850 /* PSHttpResponseHandler_Private.h */,
-				5DE5232B1C5CDB90000FA850 /* PSHttpResponseHandler.h */,
-				5DE5232C1C5CDB90000FA850 /* PSHttpResponseHandler.m */,
-				5DE5232D1C5CDB90000FA850 /* PSHttpResponseHandlers.h */,
-				5DE5232E1C5CDB90000FA850 /* PSJsonResponseHandler.h */,
-				5DE5232F1C5CDB90000FA850 /* PSJsonResponseHandler.m */,
-				5DE523301C5CDB90000FA850 /* PSTextResponseHandler.h */,
-				5DE523311C5CDB90000FA850 /* PSTextResponseHandler.m */,
 				5DE523011C5CDAF1000FA850 /* Info.plist */,
+				5D0C09731C77666D0025F356 /* PSHttpDefines.h */,
 			);
 			path = PSHttp;
 			sourceTree = "<group>";
@@ -149,7 +159,7 @@
 		5DE5230A1C5CDAF1000FA850 /* PSHttpTests */ = {
 			isa = PBXGroup;
 			children = (
-				5DE5230B1C5CDAF1000FA850 /* PSHttpTests.m */,
+				5DE5230B1C5CDAF1000FA850 /* PSHttp.test.m */,
 				5DE5230D1C5CDAF1000FA850 /* Info.plist */,
 			);
 			path = PSHttpTests;
@@ -191,12 +201,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE523421C5CDB90000FA850 /* PSHttp.h in Headers */,
-				5DE523451C5CDB90000FA850 /* PSHttpResponseHandler.h in Headers */,
-				5DE523471C5CDB90000FA850 /* PSHttpResponseHandlers.h in Headers */,
-				5DE5234A1C5CDB90000FA850 /* PSTextResponseHandler.h in Headers */,
-				5DE523481C5CDB90000FA850 /* PSJsonResponseHandler.h in Headers */,
-				5DE523401C5CDB90000FA850 /* PSFileResponseHandler.h in Headers */,
-				5DE5233F1C5CDB90000FA850 /* convenientmacros.h in Headers */,
+				5D0C096C1C7766450025F356 /* PSHttpResponseHandler.h in Headers */,
+				5D0C09711C7766450025F356 /* PSTextResponseHandler.h in Headers */,
+				5D0C096F1C7766450025F356 /* PSJsonResponseHandler.h in Headers */,
+				5D0C09691C7766450025F356 /* PSFileResponseHandler.h in Headers */,
+				5D0C0AAD1C7775DD0025F356 /* PSHttpResponseHandlers.h in Headers */,
+				5D0C09741C77666D0025F356 /* PSHttpDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,15 +328,15 @@
 			files = (
 				5DE523361C5CDB90000FA850 /* AFNetworkReachabilityManager.m in Sources */,
 				5DE523381C5CDB90000FA850 /* AFSecurityPolicy.m in Sources */,
+				5D0C096A1C7766450025F356 /* PSFileResponseHandler.m in Sources */,
 				5DE523331C5CDB90000FA850 /* AFHTTPSessionManager.m in Sources */,
-				5DE523411C5CDB90000FA850 /* PSFileResponseHandler.m in Sources */,
 				5DE5233E1C5CDB90000FA850 /* AFURLSessionManager.m in Sources */,
-				5DE5234B1C5CDB90000FA850 /* PSTextResponseHandler.m in Sources */,
+				5D0C09721C7766450025F356 /* PSTextResponseHandler.m in Sources */,
 				5DE5233A1C5CDB90000FA850 /* AFURLRequestSerialization.m in Sources */,
-				5DE523491C5CDB90000FA850 /* PSJsonResponseHandler.m in Sources */,
+				5D0C09701C7766450025F356 /* PSJsonResponseHandler.m in Sources */,
 				5DE523431C5CDB90000FA850 /* PSHttp.m in Sources */,
 				5DE5233C1C5CDB90000FA850 /* AFURLResponseSerialization.m in Sources */,
-				5DE523461C5CDB90000FA850 /* PSHttpResponseHandler.m in Sources */,
+				5D0C096D1C7766450025F356 /* PSHttpResponseHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE5230C1C5CDAF1000FA850 /* PSHttpTests.m in Sources */,
+				5DE5230C1C5CDAF1000FA850 /* PSHttp.test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +531,7 @@
 				2C02DF9A1C6722B400FCA557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DE522F61C5CDAF1000FA850 /* Build configuration list for PBXProject "PSHttp" */ = {
 			isa = XCConfigurationList;

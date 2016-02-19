@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <PSHttp/PSHttpResponseHandlers.h>
-#import <PSHttp/convenientmacros.h>
+#import <PSHttp/PSHttpDefines.h>
 
 typedef NS_ENUM(NSInteger, PSNetworkStatus) {
-    PSEnumOption(PSNetworkStatusUnknown, -1, "未知网络状态"),
-    PSEnumOption(PSNetworkStatusNotReachable, 0, "无网络"),
-    PSEnumOption(PSNetworkStatusReachableViaWWAN, 1, "移动网络"),
-    PSEnumOption(PSNetworkStatusReachableViaWiFi, 2, "Wifi网络")
+    PSHTTP_ENUM_OPTION(PSNetworkStatusUnknown, -1, "未知网络状态"),
+    PSHTTP_ENUM_OPTION(PSNetworkStatusNotReachable, 0, "无网络"),
+    PSHTTP_ENUM_OPTION(PSNetworkStatusReachableViaWWAN, 1, "移动网络"),
+    PSHTTP_ENUM_OPTION(PSNetworkStatusReachableViaWiFi, 2, "Wifi网络")
 };
 @protocol PSHttpDelegate;
 
